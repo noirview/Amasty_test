@@ -1,7 +1,7 @@
 <?php
 
 abstract class AbstractChessmen implements IChessmen {
-    private $x, $y;
+    protected $x, $y;
 
     public function __construct($x, $y) {
         $this->x = $x;
